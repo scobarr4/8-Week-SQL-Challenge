@@ -1,0 +1,17 @@
+Case Study 1: Danny's Diner
+Q1. What is the total amount each customer spent?
+
+My SQL Code:
+
+SELECT sales.customer_id, SUM(menu.price)
+FROM sales
+JOIN menu ON sales.product_id = menu.product_id
+GROUP BY sales.customer_id
+ORDER BY customer_id;
+
+The Result Table:
+| customer_id | total_sales |
+|-------------|-------------|
+| A           | 76          |
+| B           | 74          |
+| C           | 36          |
