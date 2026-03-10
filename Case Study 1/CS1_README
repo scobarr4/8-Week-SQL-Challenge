@@ -1,0 +1,15 @@
+# 🍜 Case Study 1: Danny's Diner
+
+## 📖 Table of Contents
+- [Problem Statement](#problem-statement)
+- [Entity Relationship Diagram](#entity-relationship-diagram)
+- [Case Study Questions & Solutions](#case-study-questions--solutions)
+
+---
+
+## 🎯 Problem Statement
+Danny wants to use data to answer a few simple questions about his customers, especially about their visiting patterns, how much money they’ve spent, and which menu items are their favorite.
+
+## 💾 Case Study Questions & Solutions
+
+### Q1. What is the total amount each customer spent at the restaurant?
