@@ -1,19 +1,1 @@
-# 🍜 Case Study 1: Danny's Diner
 
-## 🎯 The Challenge
-Danny needs help analyzing customer visiting patterns and spending. 
-[Link to original challenge](https://8weeksqlchallenge.com/case-study-1/)
-
----
-
-## 💾 Solutions
-
-<details>
-<summary><b>Q1: Total amount each customer spent? (Click to expand)</b></summary>
-
-**Query:**
-```sql
-SELECT s.customer_id, SUM(m.price) AS total_sales
-FROM sales s
-JOIN menu m ON s.product_id = m.product_id
-GROUP BY s.customer_id;
